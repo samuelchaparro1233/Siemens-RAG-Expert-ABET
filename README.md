@@ -3,6 +3,28 @@
 *Programa de Ingeniería Mecatrónica — Universidad Militar Nueva Granada (UMNG)*  
 *Evaluación bajo Marco de Acreditación ABET (Student Outcomes SO1, SO6, SO7)*
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Siemens-logo.svg" alt="Siemens Logo" width="180"/>
+</p>
+
+---
+
+## 📸 Evidencia Visual y Desempeño Experimental
+
+### 1. Comparativa Experimental ABET (Baseline vs. RAG V1 vs. Siemens RAG Expert)
+<p align="center">
+  <img src="assets/img/benchmark_abet_comparative.png" alt="Benchmark ABET Comparative" width="92%"/>
+</p>
+
+### 2. Soporte Multimodal: Extracción de Diagramas Oficiales de Cableado
+El sistema no solo genera respuestas en texto; recupera dinámicamente esquemas eléctricos y diagramas de conexionado directamente de las páginas citadas de los manuales de Siemens:
+
+<p align="center">
+  <img src="assets/img/diagrama_v90_pti_wiring.png" alt="Diagrama de Cableado SINAMICS V90 PTI" width="85%"/>
+  <br>
+  <em>Figura 1: Diagrama oficial de cableado de interfaz de control X8 (Pulsos PTI) extraído de la página 73 del manual SINAMICS V90.</em>
+</p>
+
 ---
 
 ## 📋 Ficha Técnica del Proyecto
