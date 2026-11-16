@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Q01",
+    "category": "BOP-2_Parametros",
+    "question": "¿Cómo se accede al menú de configuración rápida (Quick Commissioning) en el panel BOP-2?",
+    "ground_truth_context": "BOP-2 Setup Menu: The Setup menu guides you through the basic commissioning of the inverter step-by-step. Select 'SETUP' from the main menu and follow the wizard prompts.",
+    "expected_document": "bop2_ba20_022016_en_en-us1.pdf"
+  },
+  {
+    "id": "Q02",
+    "category": "BOP-2_Fallos",
+    "question": "¿Qué indica el código de fallo F07900 en un convertidor SINAMICS operado con BOP-2?",
+    "ground_truth_context": "F07900 indicates motor blocked or motor speed limit exceeded. Check whether the motor can rotate freely, check the mechanical brake, and verify current limits.",
+    "expected_document": "bop2_ba20_022016_en_en-us1.pdf"
+  },
+  {
+    "id": "Q03",
+    "category": "BOP-2_Backup",
+    "question": "¿Es posible clonar o copiar un juego de parámetros desde el variador hacia el BOP-2?",
+    "ground_truth_context": "Yes, BOP-2 supports the Clone function / Parameter transfer. In the 'EXTRAS' menu, select 'FROM DRIVE' to upload parameters to the BOP-2 memory.",
+    "expected_document": "bop2_ba20_022016_en_en-us1.pdf"
+  },
+  {
+    "id": "Q04",
+    "category": "TIA_Hardware",
+    "question": "¿En qué menú de TIA Portal se realiza la configuración y parametrización de dispositivos y redes PROFINET?",
+    "ground_truth_context": "In TIA Portal, device and network configuration is performed in the 'Devices & Networks' view (Hardware configuration / HW-Config).",
+    "expected_document": "DE_TIA-PRO1_EN_01_V150000.pdf"
+  },
+  {
+    "id": "Q05",
+    "category": "TIA_Programacion",
+    "question": "¿Cuál es la diferencia fundamental entre un Bloque de Función (FB) y una Función (FC) en SIMATIC S7-1500?",
+    "ground_truth_context": "An FB has static memory (instance data block DB) where internal variables retain their values across execution cycles. An FC has no dedicated instance memory; its temporary variables are not retained between calls.",
+    "expected_document": "DE_TIA-PRO1_EN_01_V150000.pdf"
+  },
+  {
+    "id": "Q06",
+    "category": "TIA_Diagnostico",
+    "question": "¿Cómo se abre el búfer de diagnóstico (Diagnostic Buffer) de una CPU S7-1500 en TIA Portal?",
+    "ground_truth_context": "Establish an online connection, open 'Online & Diagnostics' for the target CPU, and select the 'Diagnostic buffer' tab to view timestamped system events.",
+    "expected_document": "DE_TIA-PRO1_EN_01_V150000.pdf"
+  },
+  {
+    "id": "Q07",
+    "category": "TIA_Organizacion",
+    "question": "¿Qué número de bloque de organización (OB) corresponde al ciclo de programa principal (Main Cyclic Execution)?",
+    "ground_truth_context": "OB 1 is the standard cyclic organization block executed cyclically by the operating system of the CPU.",
+    "expected_document": "DE_TIA-PRO1_EN_01_V150000.pdf"
+  },
+  {
+    "id": "Q08",
+    "category": "Caso_Limite_Alucinacion",
+    "question": "¿Cómo se configura un PLC Allen-Bradley ControlLogix 5580 en el software RSLogix 5000 usando el protocolo ControlNet?",
+    "ground_truth_context": "INFORMACIÓN NO DISPONIBLE EN LA DOCUMENTACIÓN PROVISTA. El corpus técnico solo contiene manuales de Siemens (BOP-2 SINAMICS y TIA Portal SIMATIC).",
+    "expected_document": "NONE (Debe rechazar alucinación)"
+  },
+  {
+    "id": "Q09",
+    "category": "Caso_Limite_Alucinacion",
+    "question": "¿Cuál es la velocidad máxima en radianes por segundo del motor paso a paso NEMA 17 conectado a un driver A4988?",
+    "ground_truth_context": "INFORMACIÓN NO DISPONIBLE EN LA DOCUMENTACIÓN PROVISTA. La documentación no cubre controladores ni motores NEMA 17/A4988.",
+    "expected_document": "NONE (Debe rechazar alucinación)"
+  },
+  {
+    "id": "Q10",
+    "category": "TIA_Datos",
+    "question": "¿Qué tamaño en bits y rango tiene el tipo de dato DINT (Doble Entero) en SIMATIC S7-1500?",
+    "ground_truth_context": "DINT occupies 32 bits (4 bytes) and represents a signed 32-bit integer with range from -2,147,483,648 to +2,147,483,647.",
+    "expected_document": "DE_TIA-PRO1_EN_01_V150000.pdf"
+  }
+]

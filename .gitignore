@@ -1,0 +1,25 @@
+# Entornos virtuales y Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Variables de entorno y credenciales sensibles (NUNCA SUBIR A GITHUB)
+.env
+.env.local
+
+# Archivos pesados o cacheados que se autogeneran al correr el indexador
+data/vectorstore/
+data/extracted_images/
+data/raw/
+data/processed/
+
+# Archivos de Streamlit y VS Code
+.streamlit/
+.vscode/
+.idea/
+
+# Logs del sistema
+*.log
